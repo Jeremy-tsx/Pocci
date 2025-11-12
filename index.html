@@ -3,60 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Patitas Occi - En Mantenimiento</title>
+  <title>Patitas Occi - En mantenimiento</title>
   <style>
-    * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
     body {
-      background: linear-gradient(135deg, #ffb366, #ff914d);
+      background: #fffdf8;
+      color: #333;
       height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      color: #fff;
       text-align: center;
-      flex-direction: column;
       padding: 20px;
     }
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 15px;
+      font-size: 2.2em;
+      color: #ff914d;
+      margin-bottom: 10px;
     }
     p {
-      font-size: 1.2em;
-      max-width: 500px;
-      margin-bottom: 25px;
+      font-size: 1.1em;
+      color: #555;
+      max-width: 420px;
     }
-    .logo {
+    .paw {
       font-size: 3em;
-      margin-bottom: 20px;
-    }
-    .loader {
-      border: 6px solid rgba(255,255,255,0.3);
-      border-top: 6px solid white;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      animation: spin 1.2s linear infinite;
-      margin: 20px 0;
-    }
-    @keyframes spin {
-      to {transform: rotate(360deg);}
+      margin-bottom: 15px;
     }
     footer {
       position: absolute;
       bottom: 15px;
       font-size: 0.9em;
-      opacity: 0.8;
+      color: #999;
+    }
+    .loader {
+      width: 40px;
+      height: 40px;
+      border: 4px solid #ffe0c2;
+      border-top: 4px solid #ff914d;
+      border-radius: 50%;
+      animation: spin 1.2s linear infinite;
+      margin: 25px 0;
+    }
+    @keyframes spin {
+      to {transform: rotate(360deg);}
     }
   </style>
 </head>
 <body>
-  <div class="logo">🐾</div>
+  <div class="paw">🐾</div>
   <h1>Patitas Occi</h1>
-  <p>Estamos trabajando para mejorar tu experiencia.  
-  Muy pronto volveremos con una nueva plataforma para facilitar la adopción de nuestros peluditos 🐶🐱</p>
+  <p>Estamos realizando mejoras en nuestro sitio web.  
+  Muy pronto estaremos de vuelta para seguir conectando corazones con nuevas familias adoptivas ❤️</p>
   <div class="loader"></div>
-  <p><b>Gracias por tu paciencia 💛</b></p>
-  <footer>© 2025 Patitas Occi | Asociación de Adopción Animal - San Ramón, Alajuela</footer>
+  <footer>© 2025 Patitas Occi - San Ramón, Alajuela</footer>
 </body>
 </html>
